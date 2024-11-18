@@ -29,6 +29,7 @@ dd($_FILES);
 if($_FILES['img']['error']==0){
     move_uploaded_file($_FILES['img']['tmp_name'],"./files/".$_FILES['img']['name']);
 }
+
 ?>
 <!----透過資料表來顯示檔案的資訊，並可對檔案執行更新或刪除的工作----->
 
