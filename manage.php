@@ -17,11 +17,15 @@
     <title>檔案管理功能</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
 .item{
-    width:200px;
+    width: 200px;
 }
-.item
-    </style>
+.item img{
+            width:100%;
+        }
+    
+</style>
 </head>
 <body>
 <h1 class="header">檔案管理練習</h1>
